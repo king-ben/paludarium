@@ -26,3 +26,21 @@ p <- d |>
   theme(legend.title = element_blank())
 
 p
+
+
+#function from chatgpt
+convert_to_total_ammonia <- function(NH4_concentration, pH, temperature) {
+  # Calculate the ionization constant for ammonia
+  Kb <- 0.000096 + (0.0000004 * temperature)
+  
+  # Calculate the dissociation constant for ammonium ion
+  Ka <- Kb * 10^(14 - pH)
+  
+  # Calculate the ratio of ammonium ion to ammonia
+  ratio <- Ka / (Ka + 1)
+  
+  # Calculate the total concentration of ammonia
+  total_ammonia_concentration <- (NH4_concentration / ratio) + NH4_concentration
+  
+  return(total_ammonia_concentration)
+}
