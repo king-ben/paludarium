@@ -1,4 +1,4 @@
-Date,pH,KH,NH4,NO2,NO3,Water change(l),Dentritol(ml),other
+Date,pH,KH,NH4,NO2,NO3,Water change(l),Dentritol(ml),notes
 06/02/23,7.75,5,0,0.075,3,,,
 07/02/23,8,5,0,0.2,4,,15,
 08/02/23,8,,0.075,0.4,5,,,
@@ -10,5 +10,6 @@ Date,pH,KH,NH4,NO2,NO3,Water change(l),Dentritol(ml),other
 15/02/23,8,6,0.2,0.7,10,,15,
 16/02/23,,,0.05,0.7,15,,,
 17/02/23,8,,0.075,0.8,15,,10,removed prawn
-18/02/23,,,0,1,30,7,,
+18/02/23,,,0,1,30,7,,added Riccia
 19/02/23,,,0,0.6,15,,,
+20/02/23,8,6,0,0.15,5,,,added marimo balls
