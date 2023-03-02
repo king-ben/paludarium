@@ -18,6 +18,7 @@ d <- file |>
 
 p <- d |>
   ggplot(aes(x=Date, y=value, color=variable)) +
+  scale_y_log10() +
   geom_point(size=2.5) +
   geom_line(size=1) +
   scale_color_manual(values=c("#4fa54a", "#874aa5", "#c6532f")) +
